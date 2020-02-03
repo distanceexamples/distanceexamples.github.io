@@ -31,3 +31,4 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
     - [Point station shapefile shp](dsm-point/Rouillacais_points.shp)
     - [Point station shapefile shx](dsm-point/Rouillacais_points.shx)
     - [Point station shapefile dbf](dsm-point/Rouillacais_points.dbf)
+- [Simulation of distance sampling surveys](DSsim-truncation/DSsim-examples.html): Simulate distance sampling surveys examining the effect of truncation distance and pooling robustness upon estimates of animal density (when true density is known). [Rmarkdown file](DSsim-truncation/DSsim-examples.Rmd)
