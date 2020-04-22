@@ -30,8 +30,8 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Density surface lines](dsm-line-dolphins/mexico-analysis.html) ([Rmd](dsm-line-dolphins/mexico-analysis.Rmd)) |  |  |  |  |  | X | X |
 | [Density surface points](dsm-point/hare_point_transect_dsm-distill.html) ([Rmd](dsm-point/hare_point_transect_dsm-distill.Rmd)) |  |  |  |  |  | X |  |
 | [Simulation truncation decisions](DSsim-truncation/DSsim-examples.html) ([Rmd](DSsim-truncation/DSsim-examples.Rmd)) |  |  |  |  | X |  |  |
-| [Model-based inference](book-bobwhite/bobwhite.html) ([Rmd](book-bobwhite/bobwhite.Rmd)) |  |  | X |  |  | X | X |
-| [Lure surveys](book-crossbills/book-crossbills.html) ([Rmd](book-crossbills/book-crossbills.Rmd)) |  |  |  |  |  |  | X |
+| [Model-based inference](book-bobwhite/bobwhite.html) ([Rmd](book-bobwhite/bobwhite.Rmd)) |  |  |  |  |  | X | X |
+| [Lure surveys](book-crossbills/book-crossbills.html) ([Rmd](book-crossbills/book-crossbills.Rmd)) |  | X |  |  |  |  | X |
 | [Simulation design contrasts](book-DSsim/DSsimstudy.html) ([Rmd](book-DSsim/DSsimstudy.Rmd)) |  |  |  |  | X |  | X |
 
 <!--
