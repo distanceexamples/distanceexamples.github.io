@@ -12,6 +12,29 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 
 # Examples with R packages
 
+
+|  | Survey design | Simple analyses | Ancillary information | Covariates | Simulation | Model-based analyses | Buckland et al. (2015) |
+|----------------------------------|---------------|-----------------|-----------------------|------------|------------|----------------------|------------------------|
+| [Design, basic](dssd-getting-started/GettingStarted-distill.html) [Rmd](dssd-getting-started/GettingStarted-distill.Rmd)| X |  |  |  |  |  |  |
+| [Design, two strata](dssd-multi-strata/MultiStrataVignette-distill.html) [Rmd](dssd-multi-strata/MultiStrataVignette-distill.Rmd) | X |  |  |  |  |  |  |
+| [Line transects, songbirds](Distance-lines/lines-distill.html) [Rmd](Distance-lines/lines-distill.Rmd) |  | X |  |  |  |  | X |
+| [Point transects, songbirds](Distance-points/pointtransects-distill.html) [Rmd](Distance-points/pointtransects-distill.Rmd) |  | X |  |  |  |  |  |
+| [Variance estimation](Distance-variance/variance-distill.html) [Rmd](Distance-variance/variance-distill.Rmd) |  |  |  |  |  |  |  |
+| [Stratification](Distance-strata/strata-distill.html) [Rmd](Distance-strata/strata-distill.Rmd) |  |  |  |  |  |  |  |
+| [Covariates in detection function](Distance-covariates/covariates-distill.html) [Rmd](Distance-covariates/covariates-distill.Rmd) |  |  |  | X |  |  | X |
+| [Multi-species surveys](Distance-spec-covar/species-covariate-distill.html) [Rmd](Distance-spec-covar/species-covariate-distill.Rmd) |  |  |  | X |  |  |  |
+| [Size bias adjustment](Distance-groupsize/Remedy-size-bias-for-dolphin-surveys.html) [Rmd](Distance-groupsize/Remedy size bias for dolphin surveys.Rmd) |  |  |  | X |  |  |  |
+| [Cue counts](Distance-cues/cuecounts-distill.html) [Rmd](Distance-cues/cuecounts-distill.Rmd) |  |  | X |  |  |  | X |
+| [Deer surveys from pellets](Distance-mult/multipliers-distill.html) [Rmd](Distance-mult/multipliers-distill.Rmd) |  |  | X |  |  |  |  |
+| [Double observer methods](mrds-golftees/mrds-golftees-distill.html) [Rmd](mrds-golftees/mrds-golftees-distill.Rmd) |  |  |  |  |  |  |  |
+| [Density surface lines](dsm-line-dolphins/mexico-analysis.html) [Rmd](dsm-line-dolphins/mexico-analysis.Rmd) |  |  |  |  |  | X | X |
+| [Density surface points](dsm-point/hare_point_transect_dsm-distill.html) [Rmd](dsm-point/hare_point_transect_dsm-distill.Rmd) |  |  |  |  |  | X |  |
+| [Simulation truncation decisions](DSsim-truncation/DSsim-examples.html) [Rmd](DSsim-truncation/DSsim-examples.Rmd) |  |  |  |  | X |  |  |
+| [Model-based inference](book-bobwhite/bobwhite.html) [Rmd](book-bobwhite/bobwhite.Rmd) |  |  | X |  |  | X | X |
+| [Lure surveys](book-crossbills/book-crossbills.html) [Rmd](book-crossbills/book-crossbills.Rmd) |  |  |  |  |  |  | X |
+| [Simulation design contrasts](book-DSsim/DSsimstudy.html) [Rmd](book-DSsim/DSsimstudy.Rmd) |  |  |  |  | X |  | X |
+
+<!--
 - [Getting started with survey design using `dssd`](dssd-getting-started/GettingStarted-distill.html): Use of the package `dssd` to create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and  average transect lengths.  The example uses a parallel line transects; other designs available in the `dssd` package follow from this example. [Rmarkdown file](dssd-getting-started/GettingStarted-distill.Rmd)
 - [Multiple strata in `dssd`](dssd-multi-strata/MultiStrataVignette-distill.html): An example of how to create a design in `dssd` that contains multiple strata, with different design characteristics in each stratum. [Rmarkdown file](dssd-multi-strata/MultiStrataVignette-distill.Rmd)
 - [Analysis of line transect data](Distance-lines/lines-distill.html): Line transect data of winter wrens in Scotland.  An example of model fitting, model selection, goodness of fit assessment.  Basic analysis skills required for any distance sampling analysis. [Rmarkdown file](Distance-lines/lines-distill.Rmd)
@@ -34,3 +57,4 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
     - [Point station shapefile shx](dsm-point/Rouillacais_points.shx)
     - [Point station shapefile dbf](dsm-point/Rouillacais_points.dbf)
 - [Simulation of distance sampling surveys](DSsim-truncation/DSsim-examples.html): Simulate distance sampling surveys examining the effect of truncation distance and pooling robustness upon estimates of animal density (when true density is known). [Rmarkdown file](DSsim-truncation/DSsim-examples.Rmd)
+-->
