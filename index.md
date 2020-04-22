@@ -15,7 +15,7 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 
 |  | Survey design | Simple analyses | Ancillary information | Covariates | Simulation | Model-based analyses | Buckland et al. (2015) |
 |----------------------------------|---------------|-----------------|-----------------------|------------|------------|----------------------|------------------------|
-| [Design, basic](dssd-getting-started/GettingStarted-distill.html) [Rmd](dssd-getting-started/GettingStarted-distill.Rmd)| X |  |  |  |  |  |  |
+| [Design, basic](dssd-getting-started/GettingStarted-distill.html), ([Rmd](dssd-getting-started/GettingStarted-distill.Rmd))| X |  |  |  |  |  |  |
 | [Design, two strata](dssd-multi-strata/MultiStrataVignette-distill.html) [Rmd](dssd-multi-strata/MultiStrataVignette-distill.Rmd) | X |  |  |  |  |  |  |
 | [Line transects, songbirds](Distance-lines/lines-distill.html) [Rmd](Distance-lines/lines-distill.Rmd) |  | X |  |  |  |  | X |
 | [Point transects, songbirds](Distance-points/pointtransects-distill.html) [Rmd](Distance-points/pointtransects-distill.Rmd) |  | X |  |  |  |  |  |
