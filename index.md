@@ -35,13 +35,14 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Simulation design contrasts](book-DSsim/DSsimstudy.html) ([Rmd](book-DSsim/DSsimstudy.Rmd)) |  |  |  |  | X |  | X |
 
 *Place all following files in same directory as .Rmd*
-    - [Point transect survey csv](dsm-point/Hare_data.csv)
-    - [Study area shapefile shp](dsm-point/Contour_Rouillacais.shp)
-    - [Study area shapefile shx](dsm-point/Contour_Rouillacais.shx)
-    - [Study area shapefile dbf](dsm-point/Contour_Rouillacais.dbf)
-    - [Point station shapefile shp](dsm-point/Rouillacais_points.shp)
-    - [Point station shapefile shx](dsm-point/Rouillacais_points.shx)
-    - [Point station shapefile dbf](dsm-point/Rouillacais_points.dbf)
+
+- [Point transect survey csv](dsm-point/Hare_data.csv)
+- [Study area shapefile shp](dsm-point/Contour_Rouillacais.shp)
+- [Study area shapefile shx](dsm-point/Contour_Rouillacais.shx)
+- [Study area shapefile dbf](dsm-point/Contour_Rouillacais.dbf)
+- [Point station shapefile shp](dsm-point/Rouillacais_points.shp)
+- [Point station shapefile shx](dsm-point/Rouillacais_points.shx)
+- [Point station shapefile dbf](dsm-point/Rouillacais_points.dbf)
 
 <!--
 - [Getting started with survey design using `dssd`](dssd-getting-started/GettingStarted-distill.html): Use of the package `dssd` to create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and  average transect lengths.  The example uses a parallel line transects; other designs available in the `dssd` package follow from this example. [Rmarkdown file](dssd-getting-started/GettingStarted-distill.Rmd)
