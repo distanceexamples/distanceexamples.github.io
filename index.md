@@ -8,7 +8,7 @@ layout: index
 
 Here you can find a set of worked examples ("vignettes") demonstrating various aspects of distance sampling design and analysis using free software tools we have created and maintain. At present they focus on R packages; for examples using Distance for Windows see Chapter 3 ("Getting started") of the Distance manual.
 
-Examples below are based upon data sets available in the R packages `dssd` (for survey design) and `Distance` (for analysis of distance sampling surveys).  All examples are provided as Rmarkdown documents.  For information about using Rmarkdown files, consult [this RStudio website](https://rmarkdown.rstudio.com/).
+Examples below are based upon data sets available in the R packages `dssd` (for survey design), `Distance` (for analysis of distance sampling surveys), `mrds` for double observer methods and `dsm` for spatial models.  Data for the example of spatial models for point transect are described below the table; data for model-based inference is linked to the HTML description.   All examples are provided as Rmarkdown documents.  For information about using Rmarkdown files, consult [this RStudio website](https://rmarkdown.rstudio.com/).
 
 # Examples with R packages
 
