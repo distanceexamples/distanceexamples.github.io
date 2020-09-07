@@ -41,48 +41,40 @@
   ga('send', 'pageview');
 
   </script>
-<!-- thanks to https://codepen.io/chriscoyier/pen/tIuBL -->
-  <script type="text/javascript">
-(function(document) {
-	'use strict';
 
-	var LightTableFilter = (function(Arr) {
+<!-- based on https://www.w3schools.com/jquery/jquery_filters.asp -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-		var _input;
+<script>
+$(document).ready(function(){
+  $("#table-filter").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".order-table tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script> 
 
-		function _onInputEvent(e) {
-			_input = e.target;
-			var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
-			Arr.forEach.call(tables, function(table) {
-				Arr.forEach.call(table.tBodies, function(tbody) {
-					Arr.forEach.call(tbody.rows, _filter);
-				});
-			});
-		}
+ <script>
+$(document).ready(function(){
+  $("input[type=radio]").on("change", function() {
+    var filter = this.value;
+    if (filter == "buckland"){
+      var value = "XXXX".toLowerCase();
+      $(".order-table tbody tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    }else{
+      var value = "".toLowerCase();
+      $(".order-table tbody tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    }
+  });
+});
+</script> 
 
-		function _filter(row) {
-			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
-			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
-		}
-
-		return {
-			init: function() {
-				var inputs = document.getElementsByClassName('light-table-filter');
-				Arr.forEach.call(inputs, function(input) {
-					input.oninput = _onInputEvent;
-				});
-			}
-		};
-	})(Array.prototype);
-
-	document.addEventListener('readystatechange', function() {
-		if (document.readyState === 'complete') {
-			LightTableFilter.init();
-		}
-	});
-
-})(document);
-</script>
   </head>
   <body>
     <div class="wrapper">

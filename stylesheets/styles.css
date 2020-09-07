@@ -297,4 +297,7 @@ ul .dropdown-header:first-child {
 }
 
 
+.order-table tr > *:nth-child(5) {
+    display: none;
+}
 
