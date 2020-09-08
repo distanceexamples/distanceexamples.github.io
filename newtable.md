@@ -13,12 +13,12 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 # Examples with R packages
 
 
-<input type="search" id="table-filter" data-table="order-table" placeholder="Search">
 <form>
+  <input type="search" id="table-filter" data-table="order-table" placeholder="Search">
   <input type="radio" id="all" name="filter" value="all" checked>
-  <label for="all">All</label><br>
+  <label for="all">All</label>
   <input type="radio" id="buckland" name="filter" value="buckland">
-  <label for="buckland">Buckland et al (2015) examples</label><br>
+  <label for="buckland">Buckland et al (2015) examples</label>
 </form> 
 
 {:.order-table}
