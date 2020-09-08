@@ -15,7 +15,7 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 
 <input type="search" id="table-filter" data-table="order-table" placeholder="Search">
 <form>
-  <input type="radio" id="all" name="filter" value="all">
+  <input type="radio" id="all" name="filter" value="all" checked>
   <label for="all">All</label><br>
   <input type="radio" id="buckland" name="filter" value="buckland">
   <label for="buckland">Buckland et al (2015) examples</label><br>
