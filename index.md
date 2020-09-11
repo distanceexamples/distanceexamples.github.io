@@ -33,7 +33,7 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Model-based inference](book-bobwhite/bobwhite.html) ([Rmd](book-bobwhite/bobwhite.Rmd)) |  |  |  |  |  | X | X |
 | [Lure surveys](book-crossbills/book-crossbills.html) ([Rmd](book-crossbills/book-crossbills.Rmd)) |  |  | X |  |  |  | X |
 | [Simulation design contrasts](book-DSsim/DSsimstudy.html) ([Rmd](book-DSsim/DSsimstudy.Rmd)) |  |  |  |  | X |  | X |
-| [Density surface modelling data formatting](dsm-data-formatting/dsm-data-formatting.html) ([Rmd](dsm-data-formatting/dsm-data-formatting.html))  |  |  |  |  | | X | |
+| [Density surface modelling data formatting](dsm-data-formatting/dsm-data-formatting.html) ([Rmd](dsm-data-formatting/dsm-data-formatting.Rmd))  |  |  |  |  | | X | |
 | [Camera trap analysis with distance samplign](Distance-cameratraps/camera-distill.html) ([Rmd](Distance-cameratraps/camera-distill.Rmd)) | | | X | | | | |
 
 <!--
