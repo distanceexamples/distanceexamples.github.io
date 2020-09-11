@@ -34,6 +34,7 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Lure surveys](book-crossbills/book-crossbills.html) ([Rmd](book-crossbills/book-crossbills.Rmd)) |  |  | X |  |  |  | X |
 | [Simulation design contrasts](book-DSsim/DSsimstudy.html) ([Rmd](book-DSsim/DSsimstudy.Rmd)) |  |  |  |  | X |  | X |
 | [Density surface modelling data formatting](dsm-data-formatting/dsm-data-formatting.html) [Rmd](dsm-data-formatting/dsm-data-formatting.html)  |  |  |  |  | | X | |
+| [Camera trap analysis with distance samplign](Distance-cameratraps/camera-distill.html) [Rmd](Distance-cameratraps/camera-distill.Rmd) | | | X | | | | |
 
 <!--
 - [Getting started with survey design using `dssd`](dssd-getting-started/GettingStarted-distill.html): Use of the package `dssd` to create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and  average transect lengths.  The example uses a parallel line transects; other designs available in the `dssd` package follow from this example. [Rmarkdown file](dssd-getting-started/GettingStarted-distill.Rmd)
