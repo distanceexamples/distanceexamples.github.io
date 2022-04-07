@@ -12,8 +12,6 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 
 # Examples with R packages
 
-_Service notice: From 16-20th March 2022 we will be uploading new versions of our packages to CRAN and updating the examples.  Since the process of uploading to CRAN takes a few days, there may be some periods where the examples and packages do not match, and you get unexpected results or errors.  If you do, please come back after 20th March when things should be back in synch_
-
 <form>
   <input type="search" id="table-filter" data-table="order-table" placeholder="Search">
   <input type="radio" id="all" name="filter" value="all" checked>
