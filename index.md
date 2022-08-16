@@ -46,3 +46,4 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Inference regarding density estimate differences](differences/differences.html) ([Rmd](differences/differences.Rmd)) | Statistical comparison of density estimates between strata.  Uses formulation provided in Buckland et al. (2001) Sect. 3.6.5 | stratification, inference | Analysis | |
 | [Caution when analysing multi-species surveys](Distance-multispecies/multispecies-multioccasion-analysis.html) ([Rmd](Distance-multispecies/multispecies-multioccasion-analysis.Rmd)) | Adding additional information to flatfiles when subsetting analysis by species | multi-species, line transect | Analysis |
 
+
