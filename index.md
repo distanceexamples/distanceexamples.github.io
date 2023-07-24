@@ -45,5 +45,6 @@ Examples below are based upon data sets available in the R packages `dssd` (for 
 | [Camera trap analysis with distance sampling](Distance-cameratraps/camera-distill.html) ([Rmd](Distance-cameratraps/camera-distill.Rmd)) | Replicates analyses of duiker data presented by Howe et al. (2017) including model selection methods in presence of overdispersion (Howe et al. 2019) | camera traps, point transects | Analysis | |
 | [Inference regarding density estimate differences](differences/differences.html) ([Rmd](differences/differences.Rmd)) | Statistical comparison of density estimates between strata.  Uses formulation provided in Buckland et al. (2001) Sect. 3.6.5 | stratification, inference | Analysis | |
 | [Caution when analysing multi-species surveys](Distance-multispecies/multispecies-multioccasion-analysis.html) ([Rmd](Distance-multispecies/multispecies-multioccasion-analysis.Rmd)) | Adding additional information to flatfiles when subsetting analysis by species | multi-species, line transect | Analysis |
+| [Alternative optimization engine for fitting detection functions](mcds-dot-exe/mcds-dot-exe.html) ([Rmd](mcds-dot-exe/mcds-dot-exe.Rmd)) | Demonstrating  the mcds.exe alternative optimization engine for fitting single platform detection functions in the `Distance` and `mrds` packages | line transect, camera traps | Analysis |
 
 
